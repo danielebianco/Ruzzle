@@ -199,7 +199,7 @@ public class RuzzleController {
 			this.letters.get(cell).textProperty().bind(m.getBoard().getCellValueProperty(cell));
 		}
 
-		// this.txtStatus.textProperty().bind(m.statusTextProperty());
+		 this.txtStatus.textProperty().bind(m.statusTextProperty());
 
 	}
 }
